@@ -14,7 +14,7 @@ public class DelKdigit
 		{
 			a[i]=s.nextInt();
 		}
-	//	Arrays.sort(a);
+		Arrays.sort(a);
 		System.out.println("Enter the k digit");
 		int k=s.nextInt();
 		for(int i=0;i<n-k;i++)
